@@ -1,0 +1,340 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+#upper-part {
+    display: flex;
+}
+
+#logo-container {
+    flex-shrink: 0;
+}
+
+.site-logo {
+    width: 250px;
+    height: 255px;
+    display: block;
+}
+
+#navigation-bar {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 255px;
+    background-color: green;
+}
+
+.button {
+    margin: 0px 50px 0px 50px;
+    padding: 20px 80px 20px 80px;
+    border-radius: 20px;
+    background-color: black;
+    border: solid white 3px;
+    color: white;
+    font-family: "Asimovian", sans-serif;
+    font-size: 2rem;
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+}
+
+#introduction {
+    background-color: white;
+    margin: 50px 50px 50px 50px;
+    border-radius: 30px;
+}
+
+#introduction p {
+    font-size: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    text-align: justify;
+    font-family: "Supermercado One", sans-serif;
+}
+
+#introduction h1 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 3em;
+    font-family: "Supermercado One", sans-serif;
+    color: green;
+}
+
+#footer-page {
+    background-color: green;
+    margin-bottom: 0px;
+    margin-top: 145px;
+    color: white;
+    height: 4em;
+    font-family: "Supermercado One", sans-serif;
+    text-align: left;
+    align-items: center;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.ft-h {
+    color: white;
+    text-align: center;
+    margin-top: 8rem;
+    margin-bottom: 3rem;
+    font-family: "Supermercado One", sans-serif;
+    font-size: 3rem;
+}
+
+#computer-games {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#computer-games h1 {
+    color: white;
+    margin-left: 150px;
+    font-family: "Supermercado One", sans-serif;
+    font-size: 3rem;
+}
+
+#lol-container {
+    background-color: green;
+    display: flex;
+    height: 15rem;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 15px 15px;
+}
+
+#lol-container h2 {
+    font-size: 2rem;
+    display: flex;
+    margin-bottom: 0;
+    color: black;
+}
+
+#lol-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    font-size: 25px;
+    color: white;
+}
+
+#dofus-container {
+    background-color: green;
+    display: flex;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#dofus-container img {
+    height: 240px;
+    width: 160px;
+}
+
+#dofus-container h2 {
+    font-size: 2rem;
+    display: flex;
+    margin-bottom: 0;
+    color: black; 
+}
+
+#dofus-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    font-size: 25px;
+    color: white;
+}
+
+#fornite-container {
+    background-color: green;
+    display: flex;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#fornite-container img {
+    height: 240px;
+    width: 160px;
+}
+
+#fornite-container h2 {
+    font-size: 2rem;
+    display: flex;
+    margin-bottom: 0;
+    color: black; 
+}
+
+#fornite-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    font-size: 25px;
+    color: white;
+}
+
+#mobile-games {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#mobile-games h1 {
+    color: white;
+    margin-left: 150px;
+    font-family: "Supermercado One", sans-serif;
+    font-size: 3rem; 
+}
+
+#digimon-up-container {
+    background-color: green;
+    display: flex;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#digimon-up-container img {
+    height: 240px;
+    width: 160px;
+}
+
+#digimon-up-container h2 {
+    font-size: 2rem;
+    display: flex;
+    margin-bottom: 0;
+    color: black; 
+    margin-left: 2rem;
+}
+
+#digimon-info p {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    font-size: 25px;
+    color: white;
+}
+
+#flappy-bird-container {
+    background-color: green;
+    display: flex;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#flappy-bird-container img {
+    height: 240px;
+    width: 160px;
+}
+
+#flappy-bird-container h2 {
+    font-size: 2rem;
+    display: flex;
+    margin-bottom: 0;
+    color: black; 
+    margin-left: 2rem;
+}
+
+#flappy-bird-info p {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    font-size: 25px;
+    color: white;
+}
+
+#wild-rift-container {
+    background-color: green;
+    display: flex;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#wild-rift-container img {
+    height: 240px;
+    width: 160px;
+}
+
+#wild-rift-container h2 {
+    font-size: 2rem;
+    display: flex;
+    margin-bottom: 0;
+    color: black; 
+    margin-left: 2rem;
+}
+
+#wild-rift-info p {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    font-size: 25px;
+    color: white;
+}
+
+#social-media {
+    background-color: white;
+    margin: 50px 50px 50px 50px;
+    border-radius: 30px;
+    gap: 20px;
+    padding: 20px;
+}
+
+#social-media p {
+    font-size: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-family: "Supermercado One", sans-serif;
+}
+
+#social-media h1 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 3em;
+    font-family: "Supermercado One", sans-serif;
+    color: green;
+}
+
+#social-media-container {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+#instagram-button img {
+    display: inline-block;
+    border-radius: 50px;
+    height: 20rem;
+    width: 20rem;
+}
+
+#linkedin-button img {
+    display: inline-block;
+    border-radius: 50px;
+    height: 20rem;
+    width: 20rem;
+}
+
+#github-button img {
+    display: inline-block;
+    border-radius: 50px;
+    height: 20rem;
+    width: 20rem;
+}
